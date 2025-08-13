@@ -1,0 +1,3 @@
+rotas:
+visualizar uma estacao - get
+listar estacoes - get (apenas admin)
