@@ -1,0 +1,7 @@
+# Ignorar caches do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos de ambiente
+.env
+.env.*
