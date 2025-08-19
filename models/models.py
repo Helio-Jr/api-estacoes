@@ -95,3 +95,32 @@ class Usuario(Base):
         self.senha = senha
         self.ativo = ativo
         self.admin = admin
+
+# CREATE TABLE estacoes (
+#     id SERIAL PRIMARY KEY,
+#     cd_oscar VARCHAR,
+#     dc_nome VARCHAR,
+#     fl_capital VARCHAR,
+#     cd_situacao VARCHAR,
+#     tp_estacao VARCHAR,
+#     cd_wsi VARCHAR,
+#     cd_distrito VARCHAR,
+#     sg_estado VARCHAR,
+#     sg_entidade VARCHAR,
+#     cd_estacao VARCHAR,
+#     vl_latitude FLOAT,
+#     vl_longitude FLOAT,
+#     vl_altitude FLOAT,
+#     dt_inicio_operacao DATE,
+#     dt_fim_operacao DATE,
+#     dt_registro DATE
+# );
+
+# CREATE TABLE usuarios (
+#     id SERIAL PRIMARY KEY,
+#     nome VARCHAR,
+#     email VARCHAR NOT NULL,
+#     senha VARCHAR NOT NULL,
+#     ativo BOOLEAN,
+#     admin BOOLEAN DEFAULT FALSE
+# );
